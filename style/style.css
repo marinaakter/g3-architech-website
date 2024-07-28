@@ -201,6 +201,10 @@ main > section {
   border-radius: 8px;
 }
 
+.sponsors-content img{
+  filter: grayscale(100%);
+}
+
 .project-content h1 {
   margin-bottom: 2px;
 }
