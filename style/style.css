@@ -158,8 +158,8 @@ main > section {
 }
 
 .card-container {
-  border: 1px solid #e2edf9;
-  background-color: #f0f3f6;
+  border: 0.1px solid rgb(242, 248, 251);
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
   border-radius: 8px;
   margin: 10px 0;
   padding: 0 15px;
@@ -170,6 +170,11 @@ main > section {
 }
 .feature-image-container img {
   width: 550px;
+}
+
+#feature-section-title {
+  border-left: 5px solid #ff900e;
+  padding-left: 20px;
 }
 
 /* -------------------Project Details Container related style------------------- */
@@ -201,7 +206,7 @@ main > section {
   border-radius: 8px;
 }
 
-.sponsors-content img{
+.sponsors-content img {
   filter: grayscale(100%);
 }
 
